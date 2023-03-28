@@ -8,15 +8,10 @@ function Home(){
         
         <div>
         <h1>PLAN YOUR TASK NOW</h1>
-        <Link to="/add task">
-            <button>Create a Task</button>
+        <Link to="/Signup">
+            <button>Signup</button>
         </Link>
-        <Link to="/list tasks">
-            <button>List Tasks</button>
-        </Link>
-        <Link to="/update">
-            <button>update Tasks</button>
-        </Link>
+       
         </div>
      
     )
