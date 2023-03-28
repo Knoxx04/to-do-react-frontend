@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './List.css'
 
 function List() {
   const [tasks, setTasks] = useState([]);
@@ -32,6 +33,9 @@ function List() {
           ))}
         </tbody>
       </table>
+      <button>Create Task</button>
+      <button>Delete Task</button>
+      <button>Update Task</button>
     </div>
   );
 }

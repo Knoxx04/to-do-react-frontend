@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
         <Link to="/List">
             <button>List Tasks</button>
         </Link>
-        <Link to="/update">
+        <Link to="/Update">
             <button>update Tasks</button>
         </Link>
         <Link to="/Add">

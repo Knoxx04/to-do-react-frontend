@@ -5,6 +5,7 @@ import Signup from "./Signup";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
 import List from "./List";
+import Update from "./Update";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path= "/Login" element={<Login/>}></Route>
       <Route path= "/Dashboard" element={<Dashboard/>}></Route> 
       <Route path= "/List" element={<List/>}></Route>
+      <Route path= "/Update" element={<Update/>}></Route>
     </Routes>
     </BrowserRouter>
   )
