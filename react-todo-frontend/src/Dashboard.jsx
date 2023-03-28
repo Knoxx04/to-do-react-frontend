@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
   return (
     <div>
         <h1>Dashboard</h1>
-        <Link to="/list tasks">
+        <Link to="/List">
             <button>List Tasks</button>
         </Link>
         <Link to="/update">
