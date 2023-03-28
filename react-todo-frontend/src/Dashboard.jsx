@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
- function Dasboard() {
+ function Dashboard() {
   return (
     <div>
         <h1>Dashboard</h1>
@@ -20,5 +21,5 @@ import React from 'react'
   )
 }
 
-export default Dasboard
+export default Dashboard
 
