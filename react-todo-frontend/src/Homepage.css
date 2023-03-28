@@ -1,4 +1,35 @@
+
+
 h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
     text-align: center;
-    margin-top: 9px;
-}
+    margin: 2rem 0;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #1c4360;
+    color: #4f3a3a;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6e8da0;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 119, 204, 0.8);
+  }
+  
